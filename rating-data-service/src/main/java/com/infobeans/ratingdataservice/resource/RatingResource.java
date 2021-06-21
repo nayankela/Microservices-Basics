@@ -26,4 +26,8 @@ public class RatingResource {
 		userRating.setRatings(ratings);
 		return userRating;
 	}
+	@RequestMapping("/{hello}")
+	public String Hello() {
+		return "Hello World";
+	}
 }
