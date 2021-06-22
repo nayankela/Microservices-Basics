@@ -30,4 +30,8 @@ public class RatingResource {
 	public String Hello() {
 		return "Hello World";
 	}
+	@RequestMapping("/{hi}")
+	public String Hi() {
+		return "Hi Microservices!!";
+	}
 }
